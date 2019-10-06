@@ -1,0 +1,7 @@
+.TicketsGroup {
+  flex: 1;
+}
+
+.TicketsGroup__types {
+  margin-bottom: 20px;
+}

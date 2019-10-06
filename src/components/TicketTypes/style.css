@@ -1,0 +1,10 @@
+.TicketTypes {
+}
+
+.TicketTypes__radio-group {
+  display: flex;
+}
+
+.TicketTypes__radio {
+  flex: 1;
+}

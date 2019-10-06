@@ -1,0 +1,22 @@
+.Segment {
+  margin-top: 10px;
+}
+
+.Segment__column {
+  width: calc(100% / 3);
+}
+
+.Segment__column-header {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  color: var(--light-gray-color-1);
+}
+
+.Segment__column-body {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--dark-gray-color);
+}

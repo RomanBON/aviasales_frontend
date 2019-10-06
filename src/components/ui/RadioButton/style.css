@@ -1,0 +1,46 @@
+.RadioButton {
+  display: inline-block;
+  background-color: var(--true-white-color);
+  padding: 13px 10px;
+  font-size: 16px;
+  border: 1px solid var(--light-gray-color-2);
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.RadioButton._checked {
+  background-color: var(--primary-color);
+  border: none;
+}
+
+.RadioButton._checked .RadioButton__text {
+  color: var(--true-white-color);
+}
+
+.RadioButton._is-grouped {
+  border-radius: 0;
+}
+
+.RadioButton._is-grouped:first-child {
+  border-right: none;
+  border-radius: 4px 0 0 4px;
+}
+
+.RadioButton._is-grouped:last-child {
+  border-radius: 0 4px 4px 0;
+  border-left: none;
+}
+
+.RadioButton__input {
+  display: none;
+}
+
+.RadioButton__text {
+  font-weight: 600;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: var(--dark-gray-color);
+}

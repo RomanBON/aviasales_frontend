@@ -1,0 +1,7 @@
+.TicketsPage {
+  display: flex;
+  flex-direction: row;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 20px;
+}

@@ -14,3 +14,7 @@
 yarn
 yarn start
 ```
+
+## Результат
+
+![](search_preview.png?raw=true)

@@ -11,6 +11,9 @@ module.exports =  {
       jsx:  true,
     },
   },
+  rules:  {
+    '@typescript-eslint/interface-name-prefix': 'off',
+  },
   settings:  {
     react:  {
       version:  'detect',

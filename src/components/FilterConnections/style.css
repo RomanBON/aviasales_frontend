@@ -1,0 +1,14 @@
+.FilterConnections {
+  padding: 20px 20px 10px;
+}
+
+.FilterConnections__title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: var(--dark-gray-color);
+  margin-bottom: 10px;
+  letter-spacing: 0.5px;
+}
