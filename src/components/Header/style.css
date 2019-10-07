@@ -1,9 +1,0 @@
-.Header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.Header__logo {
-  margin: 20px 0 30px;
-}
